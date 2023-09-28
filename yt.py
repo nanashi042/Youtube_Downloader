@@ -6,7 +6,7 @@ class vid_download:
         self.url = url
 
     def download(self):
-        output_path = "static/vid"
+        output_path = "/temp/static/vid"
         file_name = "vid.mp4"
 
         # Delete the existing vid.mp4 file if it exists
